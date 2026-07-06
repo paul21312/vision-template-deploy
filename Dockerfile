@@ -1,4 +1,4 @@
-FROM node:24-alpine AS development-dependencies-env
+FROM node:this-image-does-not-exist AS development-dependencies-env
 COPY . /app
 WORKDIR /app
 RUN npm ci
