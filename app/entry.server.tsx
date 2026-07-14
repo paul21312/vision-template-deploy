@@ -1,5 +1,3 @@
-throw new Error("intentional crash — deploy protection test");
-
 import { PassThrough } from "node:stream";
 
 import type { AppLoadContext, EntryContext } from "react-router";
