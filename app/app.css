@@ -62,7 +62,7 @@
 @layer base {
   :root {
     --background: #ffffff;
-    --foreground: #0e1016;
+    --foreground: #15803d;
     --card: #ffffff;
     --card-foreground: #0e1016;
     --popover: #ffffff;
@@ -103,7 +103,7 @@
   .dark {
     /* #08090A surface with indigo glow */
     --background: #08090a;
-    --foreground: #f7f8f8;
+    --foreground: #4ade80;
     --card: #0e1014;
     --card-foreground: #f7f8f8;
     --popover: #15171c;
