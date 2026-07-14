@@ -1,3 +1,4 @@
+// Touch: trigger project update.
 // Central place to set the demo's name + description. Rename this when you
 // spin up a new repo from the template and the navbar, footer, and document
 // title all update together.
