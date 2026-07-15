@@ -4,7 +4,7 @@
 
 /*
  * Design system — "Signal"
- * Cool indigo brand, blue-gray neutrals, Plus Jakarta Sans / JetBrains Mono.
+ * Cool blue brand, blue-gray neutrals, Plus Jakarta Sans / JetBrains Mono.
  * 6px card radius, 1px hairline borders, subtle shadows, system dark/light.
  *
  * This is the shared visual language for demo apps spun up from this template.
@@ -51,12 +51,12 @@
   --radius-xl: calc(var(--radius) + 4px);
 
   /* Subtle, cool-tinted shadows */
-  --shadow-xs: 0 1px 2px 0 oklch(0.21 0.04 265 / 0.04);
-  --shadow-sm: 0 1px 2px 0 oklch(0.21 0.04 265 / 0.05),
-    0 1px 3px 0 oklch(0.21 0.04 265 / 0.04);
-  --shadow-md: 0 2px 4px -1px oklch(0.21 0.04 265 / 0.06),
-    0 4px 12px -2px oklch(0.21 0.04 265 / 0.08);
-  --shadow-lg: 0 8px 24px -4px oklch(0.21 0.04 265 / 0.1);
+  --shadow-xs: 0 1px 2px 0 oklch(0.21 0.09 255 / 0.04);
+  --shadow-sm: 0 1px 2px 0 oklch(0.21 0.09 255 / 0.05),
+    0 1px 3px 0 oklch(0.21 0.09 255 / 0.04);
+  --shadow-md: 0 2px 4px -1px oklch(0.21 0.09 255 / 0.06),
+    0 4px 12px -2px oklch(0.21 0.09 255 / 0.08);
+  --shadow-lg: 0 8px 24px -4px oklch(0.21 0.09 255 / 0.1);
 }
 
 @layer base {
@@ -68,22 +68,22 @@
     --popover: #ffffff;
     --popover-foreground: #0e1016;
 
-    /* Indigo brand */
-    --primary: #5e6ad2;
+    /* Blue brand */
+    --primary: #2563eb;
     --primary-foreground: #ffffff;
-    --primary-hover: #4e59c2;
-    --primary-deep: #3d47a8;
+    --primary-hover: #1d4ed8;
+    --primary-deep: #1e40af;
 
-    --secondary: #f3f4f9;
+    --secondary: #f2f5fb;
     --secondary-foreground: #1f2330;
 
     /* Cool blue-gray neutrals */
-    --muted: #f4f5f8;
+    --muted: #f3f5f9;
     --muted-foreground: #6b7180;
 
-    /* Indigo tint used for hover / highlight surfaces */
-    --accent: #eef0fb;
-    --accent-foreground: #3d47a8;
+    /* Blue tint used for hover / highlight surfaces */
+    --accent: #eaf1ff;
+    --accent-foreground: #1e40af;
 
     /* Mint accent (Accent 2) */
     --accent-2: #1ba883;
@@ -95,13 +95,13 @@
     /* 1px hairline borders */
     --border: #e6e8ef;
     --input: #dfe2ea;
-    --ring: #5e6ad2;
+    --ring: #2563eb;
 
     --radius: 0.375rem;
   }
 
   .dark {
-    /* #08090A surface with indigo glow */
+    /* #08090A surface with blue glow */
     --background: #08090a;
     --foreground: #4ade80;
     --card: #0e1014;
@@ -109,10 +109,10 @@
     --popover: #15171c;
     --popover-foreground: #f7f8f8;
 
-    --primary: #6872e5;
+    --primary: #3b82f6;
     --primary-foreground: #ffffff;
-    --primary-hover: #7b84ec;
-    --primary-deep: #5e6ad2;
+    --primary-hover: #60a5fa;
+    --primary-deep: #2563eb;
 
     --secondary: #16181d;
     --secondary-foreground: #f7f8f8;
@@ -120,8 +120,8 @@
     --muted: #16181d;
     --muted-foreground: #8a8f98;
 
-    --accent: #1b1e26;
-    --accent-foreground: #c8ccff;
+    --accent: #141b28;
+    --accent-foreground: #bfd6ff;
 
     --accent-2: #2dd4aa;
     --accent-2-foreground: #08090a;
@@ -131,7 +131,7 @@
 
     --border: #1e2127;
     --input: #262a31;
-    --ring: #6872e5;
+    --ring: #3b82f6;
   }
 
   * {
