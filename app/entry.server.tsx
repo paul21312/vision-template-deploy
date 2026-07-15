@@ -7,6 +7,14 @@ import { isbot } from "isbot";
 import type { RenderToPipeableStreamOptions } from "react-dom/server";
 import { renderToPipeableStream } from "react-dom/server";
 
+// ⚠️ TEMPORARY DEPLOY-GATE TEST — REMOVE BEFORE MERGING ⚠️
+// Intentional startup crash to verify the pipeline blocks an unhealthy pod.
+// This throws at module load, so `react-router-serve` dies on boot and the
+// container never becomes ready (CrashLoopBackOff) → health check fails.
+throw new Error(
+  "INTENTIONAL_DEPLOY_GATE_TEST: forced startup crash to verify unhealthy pods are not deployed",
+);
+
 export const streamTimeout = 5_000;
 
 export default function handleRequest(
