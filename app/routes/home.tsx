@@ -13,7 +13,7 @@ const features = [
   {
     title: "Styled out of the box",
     description:
-      "Plus Jakarta Sans type, a cool indigo palette, hairline borders, and dark mode by default — all wired to semantic tokens.",
+      "Inter type, a cool indigo palette, hairline borders, and dark mode by default — all wired to semantic tokens.",
   },
   {
     title: "Reusable pieces",
